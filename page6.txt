@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Destiny 2: Lightfall</title>
+   <link href="styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <header>
+  <h1>Destiny 2: Lightfall</h1>
+      <nav>
+      <li><a href="C:\Users\Caleb\Desktop\School\IFT 301\Website\Website.html">Home page</a></li>
+      </nav>
+  </header>
+  <main>
+    <section id="banner">
+      <h1>Destiny 2: Lightfall</h1>
+      <p>Experience the epic conclusion to the Light and Darkness saga in the upcoming expansion for Destiny 2.</p>
+      <a href="#features" class="button">Learn More</a>
+    </section>
+    <section id="overview">
+      <h2>Overview</h2>
+      <p>Destiny 2: Lightfall is the current and seventh major expansion for the popular online multiplayer first-person shooter game Destiny 2. It was released in Fall 2023, and it will bring an end to the Light and Darkness saga that has been building up over the course of the game's storyline.</p>
+    </section>
+    <section id="story">
+      <h2>Story</h2>
+      <p>The story of Destiny 2: Lightfall will revolve around the conflict between the Light and the Darkness, which has been brewing since the beginning of the game's storyline. Players will be called upon to fight against the Darkness and its minions in a final showdown that will determine the fate of the universe.</p>
+    </section>
+    <section id="features">
+      <h2>Features</h2>
+      <ul>
+        <li>New Story Campaign</li>
+        <li>New Raid: Root of Nightmares</li>
+        <li>New Location: Neomuna</li>
+        <li>New Enemy Faction: The Vex, and other darkness enemies</li>
+        <li>New Weapons and Gear</li>
+        <li>New Abilities and Subclasses</li>
+        <li>New Triumphs, Collections, and Lore</li>
+      </ul>
+    </section>
+    <section id="gameplay">
+      <h2>Gameplay</h2>
+      <p>Destiny 2: Lightfall will introduce a range of new gameplay features and improvements, including:</p>
+      <ul>
+        <li>New Weapons and Gear Systems</li>
+        <li>New Activity: The Trials of the Light</li>
+        <li>New Armor Synthesis System</li>
+        <li>New Artifact: Light Relic</li>
+        <li>New Exotic Quests and Missions</li>
+        <li>New Endgame Challenges</li>
+        <li>Next-Gen Enhancements</li>
+      </ul>
+    </section>
+    </main>
+  </body>
+</html>

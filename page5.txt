@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Destiny 2: Witch Queen</title>
+   <link href="styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <header>
+  <h1>Destiny 2: Witch Queen</h1>
+      <nav>
+      <li><a href="C:\Users\Caleb\Desktop\School\IFT 301\Website\Website.html">Home page</a></li>
+      </nav>
+  </header>
+  <main>
+    <section id="banner">
+      <h1>Destiny 2: Witch Queen</h1>
+      <p>Prepare to face the Hive's greatest threat yet in a new expansion that brings new story, gear, and locations to Destiny 2.</p>
+    </section>
+    <section id="overview">
+      <h2>Overview</h2>
+      <p>Destiny 2: Witch Queen is the sixth major expansion for the popular online multiplayer first-person shooter game Destiny 2. It was released on February 22, 2022, and it will introduce a range of new features, including new weapons and gear, a new location, and new story content.</p>
+    </section>
+    <section id="story">
+      <h2>Story</h2>
+      <p>The story of Destiny 2: Witch Queen revolves around Savathûn, the Witch Queen, who is the sister of Oryx, the Taken King. She is one of the last remaining Hive gods, and she has been manipulating events in the Destiny universe for a long time. Players must team up with Osiris and other allies to uncover the truth about Savathûn's plans and put a stop to her nefarious schemes.</p>
+    </section>
+    <section id="features">
+      <h2>Features</h2>
+      <ul>
+        <li>New Story Campaign</li>
+        <li>New Raid: Vow of the Disciple</li>
+        <li>New Location: Savathûn's Throne World</li>
+        <li>New Enemy Faction: The Lucent Hive</li>
+        <li>New Weapons and Gear</li>
+        <li>New Abilities and Subclasses</li>
+        <li>New Triumphs, Collections, and Lore</li>
+      </ul>
+    </section>
+    <section id="gameplay">
+      <h2>Gameplay</h2>
+      <p>Destiny 2: Witch Queen will introduce a range of new gameplay features and improvements, including:</p>
+      <ul>
+        <li>New Weapons and Gear Systems</li>
+        <li>New Activity: Court of the Witch Queen</li>
+        <li>New Armor Synthesis System</li>
+        <li>New Artifact: Hive Relic</li>
+        <li>New Exotic Quests and Missions</li>
+        <li>New Endgame Challenges</li>
+        <li>Next-Gen Enhancements</li>
+      </ul>
+    </section>
+    </main>
+  </body>
+</html>

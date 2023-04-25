@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Destiny 2</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    
+
+  </head>
+  <body>
+    <header>
+      <h1>Destiny 2</h1>
+      <nav>
+        <ul>
+         <li><a href="C:\Users\Caleb\Desktop\School\IFT 301\Website\html\page1.html"> Year 1 Destiny 2</a></li>
+         <li><a href="C:\Users\Caleb\Desktop\School\IFT 301\Website\html\page2.html"> Year 2 Destiny 2</a></li>
+         <li><a href="C:\Users\Caleb\Desktop\School\IFT 301\Website\html\page3.html"> Year 3 Destiny 2</a></li>
+         <li><a href="C:\Users\Caleb\Desktop\School\IFT 301\Website\html\page4.html"> Year 4 Destiny 2</a></li>
+         <li><a href="C:\Users\Caleb\Desktop\School\IFT 301\Website\html\page5.html"> Year 5 Destiny 2</a></li>
+         <li><a href="C:\Users\Caleb\Desktop\School\IFT 301\Website\html\page6.html"> Year 6 Destiny 2</a></li>
+         <li><a href="C:\Users\Caleb\Desktop\School\IFT 301\Website\html\page7.html"> Game Modes</a></li>
+         <li><a href="C:\Users\Caleb\Desktop\School\IFT 301\Website\html\page8.html"> Tribute to Lance Reddick </a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="about">
+        <h2>About Destiny 2</h2>
+        <p>Destiny 2 is a popular online multiplayer first-person shooter video game developed by Bungie. It was released in 2017 and is available on various platforms, including Xbox, PlayStation, and PC. In the game, players take on the role of a Guardian, a protector of Earth's last city, and fight against various enemies, including aliens and other Guardians.</p>
+      </section>
+      <section id="gameplay">
+        <h2>Gameplay</h2>
+        <p>Destiny 2 features a variety of game modes, including PvE and PvP. Players can explore the game's open world, complete story missions, raids, and strikes, or compete against other players in various multiplayer modes, including Crucible and Gambit. The game also features a variety of weapons, armor, and other gear that players can acquire and customize to suit their playstyle.</p>
+      </section>
+      <section id="characters">
+        <h2>Characters</h2>
+        <p>Destiny 2 features a variety of characters, including the player's Guardian, non-playable characters, and various enemies. Each character has its own unique abilities, strengths, and weaknesses that players can learn and utilize in the game.</p>
+      </section>
+      <section id="media">
+        <h2>Media</h2>
+        <p>Check out some of the latest content from Destiny 2:</p>
+        <ul>
+          <li><img src="lightfall.jpg" alt=""></li>
+          <li><a href="https://www.youtube.com/watch?v=i-7Cq7LLPr4" target="_blank">Destiny 2 - Official Reveal Trailer</a></li>
+          <li><a href="https://www.youtube.com/watch?v=fkc6H9FefNk" target="_blank">Destiny 2: Lightfall - Raid Trailer</a></li>
+        </ul>
+      </section>
+       <h1>What is your favorite Destiny 2 expansion?</h1>
+    <form>
+      <label>
+        <input type="radio" name="expansion" value="Forsaken">
+        Forsaken
+      </label><br>
+      <label>
+        <input type="radio" name="expansion" value="Shadowkeep">
+        Shadowkeep
+      </label><br>
+      <label>
+        <input type="radio" name="expansion" value="Beyond Light">
+        Beyond Light
+      </label><br>
+      <label>
+        <input type="radio" name="expansion" value="The Witch Queen">
+        The Witch Queen
+      </label><br>
+      <label>
+        <input type="radio" name="expansion" value="Lightfall">
+        Lightfall
+      </label><br>
+      <label>
+        <input type="radio" name="expansion" value="None">
+        I haven't played any of the expansions
+      </label><br><br>
+      <input type="submit" value="Submit">
+    </form>
+    <title>Destiny 2 Profile Viewer</title>
+	<script src="https://www.bungie.net/platform/Destiny2/Manifest/"></script>
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+	<h1>Destiny 2 Profile Viewer</h1>
+	<p>Enter a Destiny 2 player's username and platform:</p>
+	<form>
+		<label for="username">Username:</label>
+		<input type="text" id="username" name="username">
+		<br>
+		<label for="platform">Platform:</label>
+		<select id="platform" name="platform">
+			<option value="1">Xbox</option>
+			<option value="2">PlayStation</option>
+			<option value="3">Steam</option>
+			<option value="4">Stadia</option>
+			<option value="5">PC</option>
+		</select>
+		<br>
+		<input type="submit" value="View Profile">
+	</form>
+
+	<div id="profile"></div>
+
+	<script>
+		const apiKey = 'YOUR_API_KEY'; // Replace with your Bungie API key
+		const bungieManifest = 'https://www.bungie.net/platform/Destiny2/Manifest/';
+		const profileEndpoint = 'https://www.bungie.net/platform/Destiny2/';
+
+		function getManifest() {
+			return axios.get(bungieManifest, {
+				headers: {
+					'X-API-Key': apiKey
+				}
+			})
+			.then(response => response.data.Response);
+		}
+
+		function getProfile(platform, displayName) {
+			return axios.get(`${profileEndpoint}${platform}/Profile/SearchDestinyPlayer/-1/${displayName}/`, {
+				headers: {
+					'X-API-Key': apiKey
+				}
+			})
+			.then(response => response.data.Response[0].membershipId)
+			.then(membershipId => axios.get(`${profileEndpoint}${platform}/Profile/${membershipId}/?components=100,200`))
+			.then(response => response.data.Response);
+		}
+
+		document.querySelector('form').addEventListener('submit', event => {
+			event.preventDefault();
+			const username = document.querySelector('#username').value;
+			const platform = document.querySelector('#platform').value;
+			getManifest()
+			.then(manifest => getProfile(platform, username))
+			.then(profile => {
+				const characterIds = Object.keys(profile.characters.data);
+				const characterNames = characterIds.map(id => manifest.character[id].genderedClassNames[profile.characters.data[id].genderType][0]);
+				const lightLevel = profile.characters.data[characterIds[0]].light;
+				document.querySelector('#profile').innerHTML = `
+					<h2>${profile.profile.data.userInfo.displayName}</h2>
+					<p>Platform: ${profile.profile.data.userInfo.membershipType}</p>
+					<p>Light Level: ${lightLevel}</p>
+					<p>Characters: ${characterNames.join(', ')}</p>
+				`;
+			})
+			.catch(error => {
+				console.error(error);
+				document.querySelector('#profile').innerHTML = '<p>Error loading profile. Please check your username and platform and try again.</p>';
+			});
+		});
+	</script>
+    </main>
+  </body>
+</html>
+

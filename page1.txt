@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Destiny 2: Year 1</title>
+    <meta charset="UTF-8">
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <h1>Destiny 2: Year 1</h1>
+      <nav>
+      <li><a href="C:\Users\Caleb\Desktop\School\IFT 301\Website\Website.html">Home page</a></li>
+      </nav>
+    </header>
+    <main>
+      <section id="story">
+        <h2>Story</h2>
+        <p>Destiny 2 was released in September 2017 and continued the story of the original Destiny game. The game begins with an attack on Earth's last city by the Cabal, a military empire from another planet. Players take on the role of a Guardian and must fight to reclaim their home and defeat the Cabal's leader, Dominus Ghaul. Cabal forces of the Red Legion launch an aerial assault on the Last City, destroying the main portion of the Tower, the headquarters of the Guardians. The player's Guardian and their Ghost respond by assisting the Vanguard in assaulting the Red Legion command ship. As they confront the Red Legion's commander, Dominus Ghaul, his forces attach a device to the Traveler and begin draining it of the Light, the power used by the Guardians. The Guardian loses their powers and is nearly killed by Ghaul. The Guardian follows a vision to encounter a shard of the Traveler hidden in a forest within the EDZ. Ghost interfaces with the shard and both its and the Guardian's Light are restored. The Guardian returns to Earth to assist in the counterattack and infiltrates Ghaul's command ship, using Cayde's Vex teleporter, alone to save the Traveler. Ghaul forcibly takes the Light, corrupting it, and uses its power against the Guardian, but the Guardian is successful in defeating Ghaul. Ghaul reemerges as a massive ethereal figure who then speaks to the Traveler directly. In doing so, the Traveler wakes from its long sleep, destroying the device that was harvesting its power and killing Ghaul. It sends a massive shockwave throughout Sol, restoring the Light to all Guardians and decimating the Red Legion's forces. The game ends with a posthumous voiceover from the Speaker, reminding all that the Light can never be stopped.. In a post-credits scene, the shockwave sent by the Traveler is shown reaching the entire system. The wave of Light extends beyond the Solar System and spreads beyond the Milky Way, before panning across a fleet of dark, mysterious Pyramid-shaped ships sitting some distance away in extragalactic space. The ships activate and begin moving toward Earth. Following Ghaul's defeat, a massive Cabal ship called the Leviathan appears in orbit of Nessus (which it slowly begins to consume), under the control of the exiled Emperor Calus. Calus invites Guardians to complete a series of challenges before reaching his throne ("Leviathan" raid). A fireteam of Guardians complete his challenges before facing Calus himself; however, after overcoming his strange powers and defeating him, they discover that they were fighting a mechanical doppelganger. The real Calus speaks through the machine, claiming that what they know is a lie and that there is a truth beyond what the Speaker had told them.</p>
+      </section>
+      <img src="C:\Users\Caleb\Desktop\School\IFT 301\Website\html\levyraid.jpg" alt="">
+      <section id="gameplay">
+        <h2>Gameplay</h2>
+        <p>Destiny 2 introduced many new features and improvements to the gameplay compared to the original game. These included a new weapon system, which allowed players to equip different types of weapons in each slot, a revamped leveling system, and a more streamlined user interface. The game also added new game modes, including the highly popular Gambit mode.</p>
+      </section>
+      <section id="expansions">
+        <h2>Expansions</h2>
+        <p>During the first year of Destiny 2, the game received two major expansions: Curse of Osiris and Warmind. These expansions added new story missions, strikes, raids, and multiplayer maps, as well as new weapons and armor for players to acquire. They also introduced new characters and expanded the lore of the Destiny universe.</p>
+      </section>
+      <section id="community">
+        <h2>Community</h2>
+        <p>The Destiny 2 community continued to grow and thrive during the game's first year. Players formed clans, competed in multiplayer modes, and created fan art and other content related to the game. Bungie, the game's developer, also regularly communicated with the community through blog posts, livestreams, and social media.</p>
+        <li><a href="https://www.youtube.com/watch?v=v0LOHm6OnYs" target="_blank">Destiny 2 - World's first race for Leviathan raid</a></li> 
+</section>
+    </main>
+  </body>
+</html>

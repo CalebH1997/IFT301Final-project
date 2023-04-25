@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Destiny 2: Shadowkeep</title>
+   <link href="styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <header>
+  <h1>Destiny 2: Shadowkeep</h1>
+      <nav>
+      <li><a href="C:\Users\Caleb\Desktop\School\IFT 301\Website\Website.html">Home page</a></li>
+      </nav>
+  </header>
+<main>
+    <section id="banner">
+      <h1>Destiny 2: Shadowkeep</h1>
+      <p>Return to the moon and face your fears in a haunting new expansion that brings new enemies, gear, and activities to Destiny 2.</p>
+    </section>
+    <section id="overview">
+      <h2>Overview</h2>
+      <p>Destiny 2: Shadowkeep is the fourth major expansion for the popular online multiplayer first-person shooter game Destiny 2. It was released on October 1, 2019, and it takes players back to the moon, which was a location in the original Destiny game. The expansion introduces a new threat, a dark force known as the Nightmares, which haunt the moon and threaten to plunge the solar system into darkness.</p>
+    </section>
+    <section id="story">
+      <h2>Story</h2>
+      <p>The story of Destiny 2: Shadowkeep revolves around the return of Eris Morn, a character from the original Destiny game who has been on a mission to uncover the secrets of the moon. Eris has discovered that the Nightmares are manifestations of the past, present, and future traumas of the Guardians, and they are being used by an ancient evil known as the Hive to gain power. To stop them, players must venture into the depths of the moon and confront their fears, as well as face new and returning enemies.</p>
+    </section>
+    <section id="features">
+      <h2>Features</h2>
+      <ul>
+        <li>New Story Campaign</li>
+        <li>New Raid: Garden of Salvation</li>
+        <li>New Dungeon: Pit of Heresy</li>
+        <li>New Game Mode: Nightmare Hunts</li>
+        <li>New Armor and Weapons</li>
+        <li>New Exotics and Quests</li>
+        <li>New Artifacts and Mods</li>
+      </ul>
+    </section>
+    <section id="gameplay">
+      <h2>Gameplay</h2>
+      <p>Destiny 2: Shadowkeep introduces a range of new gameplay features and improvements, including:</p>
+      <ul>
+        <li>New Seasonal Content Model</li>
+        <li>Armor 2.0 System</li>
+        <li>Finisher Moves</li>
+        <li>Bounties and Challenges</li>
+        <li>Destiny 1 Weapons and Armor Return</li>
+        <li>Artifact Power System</li>
+        <li>Cross-Save and PC Launch</li>
+      </ul>
+    </section>
+    </main>
+  </body>
+</html>

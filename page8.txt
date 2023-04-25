@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Destiny 2: RIP: Lance Reddick</title>
+   <link href="styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <header>
+  <h1>A tribute to Lance Reddick</h1>
+      <nav>
+      <li><a href="C:\Users\Caleb\Desktop\School\IFT 301\Website\Website.html">Home page</a></li>
+      </nav>
+  </header>
+  <main>
+    <section id="banner">
+      <h1>A Tribute to Lance Reddick</h1>
+      <p>Explore the life and career of Lance Reddick, the talented actor who brought Commander Zavala to life in the popular video game Destiny 2.</p>
+    </section>
+    <section id="bio">
+      <h2>Biography</h2>
+      <img src="lance-reddick.jpg" alt="Lance Reddick">
+      <p>Lance Reddick was born on December 31, 1962, in Baltimore, Maryland. He attended the Peabody Conservatory and the Yale School of Drama, where he earned his Master of Fine Arts degree in acting.</p>
+      <p>Reddick has had a successful career in both television and film, with notable roles in shows like The Wire, Fringe, and Bosch, and films like John Wick and White House Down.</p>
+    </section>
+    <section id="destiny">
+      <h2>Destiny 2</h2>
+      <p>Lance Reddick is perhaps best known to video game fans for his role as Commander Zavala in Destiny 2. Zavala is the leader of the Guardians and the head of the Vanguard, and he is one of the most beloved characters in the game.</p>
+      <p>Reddick's performance as Zavala has been praised for its depth, intensity, and emotional range, and it has helped to make Destiny 2 one of the most popular games of all time.</p>
+    </section>
+    <section id="roles">
+      <h2>Other Roles</h2>
+      <p>In addition to his work in Destiny 2, Lance Reddick has appeared in a wide variety of other roles over the years. Some of his notable roles include:</p>
+      <ul>
+        <li>Matthew Abaddon in Lost</li>
+        <li>Phillip Broyles in Fringe</li>
+        <li>Charon in John Wick</li>
+        <li>Arthur Leeds in White House Down</li>
+        <li>Irving in Bosch</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>

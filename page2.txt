@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Destiny 2: Forsaken</title>
+   <link href="styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <header>
+  <h1>Destiny 2: Forsaken</h1>
+      <nav>
+      <li><a href="C:\Users\Caleb\Desktop\School\IFT 301\Website\Website.html">Home page</a></li>
+      </nav>
+  </header>
+  <main>
+    <section id="banner">
+      <h1>Destiny 2: Forsaken</h1>
+      <p>The epic adventure continues with new challenges, new rewards, and a darker story that will test your skills and courage like never before.</p>
+    </section>
+    <section id="overview">
+      <h2>Overview</h2>
+      <p>Destiny 2: Forsaken is the third major expansion for the critically acclaimed online multiplayer first-person shooter game Destiny 2. It was released on September 4, 2018, and it takes players on a journey of revenge and redemption in the aftermath of a devastating attack on the Reef.</p>
+    </section>
+    <section id="story">
+      <h2>Story</h2>
+      <p>Following the events of Destiny 2's previous expansion, Warmind, the Awoken Queen Mara Sov is believed to be dead, and the Reef is in chaos. A new threat emerges as the rogue Fallen House of Dusk has united under a new leader named Fikrul, the Fanatic. To defeat him and his followers, players must team up with an unlikely ally: Prince Uldren Sov, the queen's brother, who is rumored to have played a role in her death. The story takes players on a journey of vengeance, betrayal, and sacrifice, with unexpected twists and turns along the way.</p>
+    </section>
+    <section id="features">
+      <h2>Features</h2>
+      <ul>
+        <li>New Story Campaign</li>
+        <li>New Raid: Last Wish</li>
+        <li>New Game Mode: Gambit</li>
+        <li>New Supers and Abilities</li>
+        <li>New Weapons and Gear</li>
+        <li>New Locations: The Tangled Shore and The Dreaming City</li>
+        <li>New Challenges and Triumphs</li>
+      </ul>
+    </section>
+    <section id="gameplay">
+      <h2>Gameplay</h2>
+      <p>Destiny 2: Forsaken introduces a range of new gameplay features and improvements, including:</p>
+      <ul>
+        <li>Randomized Weapon and Armor Perks</li>
+        <li>Collection and Triumph Systems</li>
+        <li>Weapon Slot Changes</li>
+        <li>Masterwork Core Economy Changes</li>
+        <li>Bounties and Daily Challenges</li>
+        <li>UI and Quality of Life Improvements</li>
+      </ul>
+    </section>
+    <section id="reviews">
+      <h2>Reviews</h2>
+      <blockquote>"Destiny 2: Forsaken is a fantastic expansion that improves on nearly every aspect of the game."
+</section>
+    </main>
+  </body>
+</html>

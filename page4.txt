@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Destiny 2: Beyond Light</title>
+   <link href="styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <header>
+  <h1>Destiny 2: Beyond Light</h1>
+      <nav>
+      <li><a href="C:\Users\Caleb\Desktop\School\IFT 301\Website\Website.html">Home page</a></li>
+      </nav>
+  </header>
+  <main>
+    <section id="banner">
+      <h1>Destiny 2: Beyond Light</h1>
+      <p>Embrace the darkness and wield the power of Stasis in a new expansion that brings new story, gear, and locations to Destiny 2.</p>
+    </section>
+    <section id="overview">
+      <h2>Overview</h2>
+      <p>Destiny 2: Beyond Light is the fifth major expansion for the popular online multiplayer first-person shooter game Destiny 2. It was released on November 10, 2020, and it takes players to Europa, one of Jupiter's moons, to uncover the secrets of the darkness and wield a new elemental power called Stasis.</p>
+    </section>
+    <section id="story">
+      <h2>Story</h2>
+      <p>The story of Destiny 2: Beyond Light centers around Eramis, the Kell of Darkness, who seeks to use the power of the darkness to reclaim her people's glory and conquer the solar system. Players must join forces with the Exo Stranger, a mysterious character from the original Destiny game, to stop Eramis and her army of Fallen, as well as uncover the truth about the origins of the darkness and their own role in the conflict.</p>
+    </section>
+    <section id="features">
+      <h2>Features</h2>
+      <ul>
+        <li>New Story Campaign</li>
+        <li>New Raid: Deep Stone Crypt</li>
+        <li>New Destination: Europa</li>
+        <li>New Subclass: Stasis</li>
+        <li>New Exotics and Quests</li>
+        <li>New Artifacts and Mods</li>
+        <li>New Gear and Weapons</li>
+      </ul>
+    </section>
+    <section id="gameplay">
+      <h2>Gameplay</h2>
+      <p>Destiny 2: Beyond Light introduces a range of new gameplay features and improvements, including:</p>
+      <ul>
+        <li>Stasis Subclass and Abilities</li>
+        <li>Europa and Cosmodrome Locations</li>
+        <li>New Seasonal Content Model</li>
+        <li>Trials of Osiris Revamp</li>
+        <li>Infusion Cap Changes</li>
+        <li>Legacy Content Vaulting</li>
+        <li>Cross-Play and Next-Gen Enhancements</li>
+      </ul>
+    </section>
+    </main>
+  </body>
+</html>

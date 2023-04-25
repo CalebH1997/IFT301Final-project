@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Destiny 2: Game Modes</title>
+   <link href="styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <header>
+  <h1>Destiny 2: Game Modes</h1>
+      <nav>
+      <li><a href="C:\Users\Caleb\Desktop\School\IFT 301\Website\Website.html">Home page</a></li>
+      </nav>
+  </header>
+  <main>
+    <section id="banner">
+      <h1>Destiny 2 Game Modes</h1>
+      <p>Explore the different game modes available in Destiny 2, including the fast-paced Crucible, the strategic Gambit, the intense Trials of Osiris, and more.</p>
+      <a href="#more-modes" class="button">View All Game Modes</a>
+    </section>
+    <section id="crucible">
+      <h2>Crucible</h2>
+      <p>The Crucible is Destiny 2's player-vs-player (PvP) mode, where players can compete against each other in a variety of game modes, including:</p>
+      <ul>
+        <li>Control</li>
+        <li>Clash</li>
+        <li>Survival</li>
+        <li>Countdown</li>
+        <li>Rumble</li>
+        <li>Iron Banner</li>
+        <li>Momentum Control</li>
+      </ul>
+      <p>The Crucible also features different playlists, including the Weekly Rotator, which features a rotating selection of game modes and maps.</p>
+    </section>
+    <section id="gambit">
+      <h2>Gambit</h2>
+      <p>Gambit is a PvE and PvP hybrid game mode that combines elements of both player-vs-environment (PvE) and PvP gameplay. In Gambit, two teams of four players compete against each other by fighting waves of enemies and collecting motes of light to summon a powerful boss.</p>
+      <p>Players can also invade the enemy team's side of the map to disrupt their progress and gain an advantage for their own team. The first team to defeat their boss wins the round.</p>
+    </section>
+    <section id="trials">
+      <h2>Trials of Osiris</h2>
+      <p>Trials of Osiris is a high-stakes, weekend-only PvP game mode that challenges players to compete in a series of intense 3-vs-3 matches. Players can earn powerful rewards by winning matches and completing bounties, but they can also lose their progress if they lose three matches.</p>
+      <p>Trials of Osiris features unique matchmaking and rewards, and it is considered one of the most challenging and rewarding game modes in Destiny 2.</p>
+    </section>
+    <section id="iron-banner">
+      <h2>Iron Banner</h2>
+      <p>Iron Banner is a limited-time PvP game mode that takes place periodically throughout the year. It features a variety of game modes, including Control, Clash, and Supremacy, and it has its own unique set of rewards.</p>
+      </section>
+    </main>
+  </body>
+</html>
